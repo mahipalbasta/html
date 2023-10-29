@@ -1,0 +1,440 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    color:white;
+    background-color: #0f1111;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("https://1000marcas.net/wp-content/uploads/2019/11/Logo-Amazon.jpg");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+.border{
+ border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+}
+.add-first{
+ color:#cccccc;
+ margin-left: 15px;
+ font-size: 0.85rem;
+}
+.add-second{
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    border-radius: 4px;
+    height:40px;
+    width:620px;
+    
+}
+.nav-search:hover{
+    border:2px solid pink;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: left;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+.search-select{
+    text-align: left;
+    cursor: pointer;
+}
+.color:hover{
+   color:blue;
+}
+.all{
+    text-align: center;
+}
+.all:hover{
+    color:white;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size: 1rem;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/643/145/original/vector-shopping-cart-icon.jpg");
+    height:50px;
+    width: 40px;
+    background-size: cover;
+}
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    color:white;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    height: 38px;
+}
+.notes{
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    align-items: center;
+    height:25px;
+    width:24px;
+}
+.panel-ops p{
+display: inline;
+text-align: center;
+margin-left: 8px;
+}
+.panel-ops{
+     width:77%;
+     font-size: 0.88rem;
+}
+.prime{
+    text-align: center;
+}
+.panel-dell{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/Jupiter_23/Phase3_Jup23/899_P3_3000x1200._CB575248754_.jpg");
+    height:320px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.hero-message{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+   width:80%;
+   margin-bottom: 25px;
+}
+.hero-message p{
+    cursor: auto;
+}
+.hero-message a{
+    color: #007185;
+    cursor: pointer;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.shop-section p{
+    cursor: pointer;
+}
+.box{
+    margin-top: 15px;
+    height: 300px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img1{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/Scroll/Camera/Topdeal/n/Desktop_CC._SY304_CB575822413_.jpg");
+    height:250px;
+    cursor: pointer;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color:#007185;
+}
+.box-img2{
+    background-image: url("https://m.media-amazon.com/images/I/41lZmV-2+xL._AC_UF226,226_FMjpg_.jpg");
+    height:250px;
+    cursor: pointer;
+}
+.box-img3{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/JupiterHCTILESMSO/Curation/D99268497_WLD-Jupiter23-_-MSO_Jupiter1_Desktop_QuadImageCard_186x116_1._SY116_CB577349944_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img4{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/certified_refurbished/anjaga/Jupiter23/JupiterGWCampaigns/Desktop_CC02_small._SY304_CB575045018_.jpg");
+    height:270px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img5{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/Oct/Jupiter23/Gateway/QC_PC_2_1x._SY116_CB574725583_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img6{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/Oct/Jupiter23/Gateway/QC_PC_1_1x._SY116_CB574725583_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img7{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/Oct/Jupiter23/Gateway/QC_PC_3_1x._SY116_CB574725583_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img8{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jup23/03-AC-1x._SY116_CB577612800_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img9{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jup23/02-Ref-1x._SY116_CB577612800_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img10{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jup23/01-WM-1x._SY116_CB577612800_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img11{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Jup23/04-MWO-1x._SY116_CB577612800_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img12{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Local/Electric_vehicle_Jup23_QC_PC_186x116._SY116_CB574631186_.png");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img13{
+    background-image: url("https://m.media-amazon.com/images/I/51WsdTQoCaL._AC_SY200_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img14{
+    background-image: url("https://m.media-amazon.com/images/I/612TWXCAcrL._AC_SY200_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img15{
+    background-image: url("https://m.media-amazon.com/images/I/71cF5caTObL._SL1176__AC_SY200_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.box-img16{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/diwali/1/2/1/1/K/Desktop_CC04._SY304_CB577704979_.jpg");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.hero{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/AmazonPay/Jupiter23/Event/Train_GW_editorial_2300x646._CB575880778_.jpg");
+    height:300px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel1:hover{
+    cursor: pointer;
+    background-color: #081828;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color:#dddddd;
+    cursor: pointer;
+}
+ul p{
+    margin-top: 25px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image: url("https://larrybrownsports.com/wp-content/uploads/2021/02/amazon-logo.jpg");
+    background-size: cover;
+    height:50px;
+    width:100px;
+    cursor: pointer;
+}
+.panel1{
+    display:flex;
+    justify-content:right;
+    margin-left: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.panel2{
+    border-radius: 4px;
+}
+.panel2:hover{
+    background-color: #007185;
+    cursor: pointer;
+}
+.ram{
+    background-color: #222f3d;
+    color: white;
+    height: 60px;
+}
+.hindi{
+    display: flex;
+    justify-content: center;
+}
+.hindi a{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.china{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+.china a{
+    cursor: pointer;
+}
+.state{
+    margin-left: 20px;
+}
+ .panel3{
+    background-color: #131a22;
+    color:white;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    padding:5px 0px 5px;
+    
+}
+.panel4{
+    background-color: #131a22;
+    color:white;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    padding:5px 0px 5px;
+    
+}
+ .book a{
+    font-size: 0.7rem;
+     display: block; 
+     display: flex;
+     
+}
+.book p,a{
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.book{
+    margin:40px;
+}
+.amazon1{
+    margin-right: 15px;
+}
+.amazon2{
+    margin-right: 10px;
+}
+.amazon3{
+    margin-right: 10px;
+}
+.amazon4{
+    margin-right: 15px;
+}
+.panel5{
+    background-color: #131a22;
+    color:white;
+    height: 65px;
+}
+.pages{
+  font-size: 0.78rem;
+  text-align: center;
+}
+.notice{
+font-size: 0.78rem;
+text-align: center;
+padding-top: 5px;
+}
+.pages a{
+margin: 5px;
+}
